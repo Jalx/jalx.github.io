@@ -1,4 +1,3 @@
 # jalx.github.io
-Portfolio
-
-React, material design, babel, webpack, redux and freeze
+Portfolio | En Construcción
+React | Babel | Webpack | Redux | Freeze
