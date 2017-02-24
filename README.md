@@ -1,3 +1,3 @@
 # jalx.github.io
-Portfolio | En Construcción
+Portfolio | En Construcción  
 React | Babel | Webpack | Redux | Freeze
