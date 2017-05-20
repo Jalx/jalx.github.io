@@ -1,6 +1,6 @@
 # jalx.github.io
 
-## Portfolio  | En Construcción
+## Portfolio
 
 React | Material Design | Babel | Webpack | Redux | Freeze
 
