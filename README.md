@@ -1,6 +1,6 @@
 # jalx.github.io
 
-## Portfolio
+## Alexis Guzmán | Portfolio
 
 React | Material Design | Babel | Webpack | Redux | Freeze
 
