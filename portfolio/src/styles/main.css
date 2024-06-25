@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primaryColor: #343841;
+    --secondaryColor: #343841;
+    --foregroundColor: #343841;
+    /* --backgroundColor: #fffef1; */
+    --backgroundColor: #f6f9fc;
+    --navColor: #343841;
+    /* --navColor: #838383; */
+    --linkColor: #2b91a5;
+}
+
+body {
+    background-color: var(--backgroundColor);
+    color: var(--primaryColor);
+}
+main {
+    margin: auto;
+    /* width: 800px;
+    max-width: calc(100% - 2rem); */
+}
+header {
+    padding: 0.5rem;
+    margin: auto;
+    width: 800px;
+    max-width: calc(100% - 2rem);
+}
+@media (min-width: 992px) {
+    header {
+        padding: 0.5rem;
+    }
+}
+section {
+    padding: 1rem;
+    margin: auto;
+    width: 800px;
+    max-width: calc(100% - 2rem);
+}
+
+h1 {
+    font-size: 1.6rem;
+    font-style: italic;
+}
+h2 {
+    font-size: 1.6rem;
+    font-style: italic;
+}
+h3 {
+    font-style: italic;
+}
+p {
+    font-size: 1rem;
+    color: var(--primaryColor);
+}
+a {
+    color: var(--linkColor);
+    font-size: 1rem;
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .navbar a.nav--link {
+    }
+}
+
+.header--wrapper {
+    background-color: var(--backgroundColor);
+}
+.header a {
+    color: rgb(var(--navColor));
+}
+.navbar a.nav--link {
+    color: var(--navColor);
+    @apply transition-all ease-in-out delay-150 hover:underline hover:-translate-y-1;
+}
+
+.projects {
+    .projects--list {
+        @apply grid sm:grid-cols-1 md:grid-cols-1 gap-4 mt-4;
+        &--item {
+            @apply rounded-lg py-2;
+            h3 {
+                @apply font-bold text-lg px-3;
+            }
+            &--description {
+                @apply mt-2 pb-2 px-3;
+                p {
+                    
+                }
+            }
+            &--details {
+                @apply list-outside list-disc py-4 pl-7 pr-3;
+                li {
+                    @apply font-light
+                }
+            }
+            &--stack {
+                @apply grid grid-cols-3 gap-3 gap-y-0 lowercase px-3;
+                li {
+                    @apply border border-black rounded-md bg-black text-white my-2 py-1 text-center text-xs;
+                }
+            }
+        }
+    }
+}
+
+.skills {
+    .skills--list {
+        @apply flex flex-row flex-wrap justify-center md:grid-cols-6 gap-3;
+        &--item {
+            @apply flex flex-col items-center justify-center rounded-md text-center border py-2 px-1 shadow-sm hover:shadow-lg min-h-32 min-w-32 relative;
+            transition: box-shadow 250ms ease-in-out;
+            h3 {
+                @apply my-3 text-sm md:text-xs text-center absolute top-0;
+            }
+            &--img_wrapper {
+                @apply h-16 flex justify-center items-center;
+                img {
+                    
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    @apply border rounded-sm  text-xs py-5 px-2;
+}
