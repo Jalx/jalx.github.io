@@ -2,7 +2,7 @@ import githubImg from '../images/github-mark.png';
 
 export default function Navbar() {
     return (
-        <ul className="flex navbar">
+        <ul className="flex navbar items-center">
             <li className=" text-sm ml-0 mr-3 md:mx-3 py-2">
                 <a className="nav--link" href="/">Home</a>
             </li>
