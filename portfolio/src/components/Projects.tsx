@@ -1,18 +1,19 @@
 export default function Projects() {
     return (
-        <section className="projects my-10" id="projects">
+        <section className="projects mt-2 pt-20" id="projects">
             <div className="wrapper flex flex-col">
                 <h2 id="mb-4">Projects</h2>
                 <div className="projects--list">
                     <article className="projects--list--item">
                         <h3>Custom Integrations</h3>
                         <div className="projects--list--item--description">
-                            <p>Developed several solutions that connect various services seamlessly. Some of the platforms that I've worked with are HubSpot, Airtable and Acumatica.</p>
+                            <p>Designed and developed several solutions that connect multiple services seamlessly. Some of the platforms that I've worked with are HubSpot, Airtable and Acumatica.</p>
                         </div>
                         <ul className="projects--list--item--details">
-                            <li>Designed and implemented serverless architectures to ensure scalability and cost efficiency.</li>
+                            <li>Developed serverless architectures to ensure scalability and cost efficiency.</li>
                             <li>Utilized AWS Lambda for compute services and DynamoDB for fast and flexible NoSQL database solutions.</li>
                             <li>Integrated AWS SQS for reliable messaging between distributed systems.</li>
+                            <li>Successfuly led and mentored team members in the implementation of multiple serverless integrations.</li>
                         </ul>
                         <ul className="projects--list--item--stack">
                             <li className="">AWS Lambda</li>
@@ -26,7 +27,7 @@ export default function Projects() {
                     <article className="projects--list--item">
                         <h3>BFF Apps</h3>
                         <div className="projects--list--item--description">
-                            <p>Created a dynamic real-time applications using React and Vue.js, powered by serverless functions.</p>
+                            <p>Created dynamic real-time applications using React and Vue.js, powered by serverless functions and Restful APIs.</p>
                         </div>
                         <ul className="projects--list--item--details">
                             <li className="">Implemented multiple BFF architectures to simplify client-side data handling and improve user experience</li>
@@ -43,15 +44,15 @@ export default function Projects() {
                     <article className="projects--list--item">
                         <h3>HubSpot</h3>
                         <div className="projects--list--item--description">
-                            <p>Developed a series of e-commerce websites within the HubSpot ecosystem, customizing themes and functionalities to meet client needs.</p>
+                            <p>Developed e-commerce websites within the HubSpot ecosystem, customizing themes and functionalities to meet client needs.</p>
                         </div>
                         <ul className="projects--list--item--details">
                             <li className="">Designed and implemented custom HubSpot themes to align with branding and marketing strategies.</li>
-                            <li className="">Integrated advanced features like personalized user experiences and automated marketing workflows.</li>
+                            <li className="">Integrated advanced features like personalized user experiences with React and Vue.js and automated marketing workflows.</li>
                             <li className="">Conducted performance optimization to ensure fast load times and seamless user experiences.</li>
                         </ul>
                         <ul className="projects--list--item--stack">
-                            <li className="">APIs</li>
+                            <li className="">Restful APIs</li>
                             <li className="">GraphQL</li>
                             <li className="">Webhooks</li>
                             <li className="">OAuth</li>

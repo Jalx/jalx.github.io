@@ -8,9 +8,6 @@ export default function Section() {
             </section>
             <section className="text-center text-gray-600 font-bold">
                 <span className="">Alexis Guzmán ©2024</span>
-                <div className="flex justify-center">
-                    <img className="flex py-3 rounded-sm" src="/favicon-96x96.png" alt="Portfolio logo"/>
-                </div>
             </section>
         </footer>
     );
