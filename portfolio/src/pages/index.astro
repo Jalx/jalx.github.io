@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header';
+import Intro from '../components/Intro';
+import Projects from '../components/Projects';
+import Skills from '../components/Skills';
+import Footer from '../components/Footer';
+---
+
+<Layout title="Alexis Guzmán, Full Stack Developer | Portfolio">
+	<main>
+		<div class="header--wrapper border-b fixed top-0 w-full z-50">
+			<Header></Header>
+		</div>
+		<Intro></Intro>
+		<Projects></Projects>
+		<Skills></Skills>
+		<Footer></Footer>
+	</main>
+</Layout>
+
+<style>
+	main {
+		
+	}
+	.astro-a {
+		position: absolute;
+		top: -32px;
+		left: 50%;
+		transform: translatex(-50%);
+		width: 220px;
+		height: auto;
+		z-index: -1;
+	}
+</style>

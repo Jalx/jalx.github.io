@@ -1,0 +1,25 @@
+---
+const primaryColor = "rgb(221 243 228)";
+const secondaryColor = "rgb(221 243 228)";
+const foregroundColor = "rgb(221 243 228)";
+const backgroundColor = "rgb(24 121 78)";
+---
+
+<style is:global
+    define:vars={{
+        primaryColor, secondaryColor,
+        foregroundColor, backgroundColor
+    }}
+>
+    body {
+        background-color: var(--backgroundColor);
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    @media (min-width: 992px;) {
+        h1 {
+            font-size: 4rem;
+        }   
+    }
+</style>
