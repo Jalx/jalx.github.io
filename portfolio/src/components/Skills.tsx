@@ -12,13 +12,14 @@ import mariadbImg from '../images/skills/mariadb-logo.png';
 import dynamodbImg from '../images/skills/dynamodb-logo.png';
 import redisImg from '../images/skills/redis-logo.png';
 import dockerImg from '../images/skills/docker-logo.png';
+import awsImg from '../images/skills/aws-logo.svg';
 
 export default function Skills() {
 
     // TODO Use logomarks instead of logotypes
 
     return (
-        <section className="skills my-10" id="skills">
+        <section className="skills mt-2 pt-20" id="skills">
             <div className="wrapper flex flex-col">
                 <h2 id="mb-4">Skills</h2>
                 <div className="grid grid-cols-1 gap-4 mt-4">
@@ -160,6 +161,18 @@ export default function Skills() {
                             <div className="skills--list--item--img_wrapper">
                                 <img src={dockerImg.src}
                                     alt="Docker logo"
+                                    width={40}
+                                    height={48}
+                                    decoding='async'
+                                    loading='lazy'
+                                ></img>
+                            </div>
+                        </li>
+                        <li className="skills--list--item">
+                            <h3>Amazon Web Services</h3>
+                            <div className="skills--list--item--img_wrapper">
+                                <img src={awsImg.src}
+                                    alt="AWS logo"
                                     width={40}
                                     height={48}
                                     decoding='async'

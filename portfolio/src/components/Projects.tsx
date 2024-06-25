@@ -25,7 +25,7 @@ export default function Projects() {
                         </ul>
                     </article>
                     <article className="projects--list--item">
-                        <h3>BFF Apps</h3>
+                        <h3>Web Apps</h3>
                         <div className="projects--list--item--description">
                             <p>Created dynamic real-time applications using React and Vue.js, powered by serverless functions and Restful APIs.</p>
                         </div>

@@ -4,7 +4,7 @@ export default function Intro() {
             <div className="">
                 <div className="">
                     <span className="">👋 Hi! I'm Alexis Guzmán</span>
-                    <h1 className="leading-tight">I'm a Passionate Full-Stack Developer Building Custom Integrations and Web Apps</h1>
+                    <h1 className="mt-2 leading-tight">I'm a Passionate Full-Stack Developer Building Custom Integrations and Web Apps</h1>
                     <br />
                     <p>I'm a Full Stack Developer with over 5 years of experience in web development, system integrations and DevOps. My journey in tech has been driven by a passion for creating seamless and efficient digital solutions that drive business success.</p>
                     <br />

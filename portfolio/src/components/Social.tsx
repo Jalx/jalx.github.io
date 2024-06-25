@@ -18,12 +18,12 @@ export default function Social() {
                             decoding='async'
                             loading='lazy'
                         ></img>
-                        Github
+                        <span>Github</span>
                     </a>
                 </li>
                 <li className="mx-3">
                     <a href="https://www.linkedin.com/in/alexis-guzmán-4a5a711a6"
-                        className="flex text-black"
+                        className="flex flex-row items-center text-black"
                         target="_blank"
                     >
                         <img src={linkedinImg.src}
@@ -34,7 +34,7 @@ export default function Social() {
                             decoding='async'
                             loading='lazy'
                         ></img>
-                        LinkedIn
+                        <span>LinkedIn</span>
                     </a>
                 </li>
             </ul>
